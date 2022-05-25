@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .front{
+    height: 100vh;
+    background-image: url("./assets/images/redbg.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .front1{
+    background-color: black;
+  }
+  
+  .card2{
+    width: 400px;
+    height: 48vh;
+    
+  }
+  
+  .logo{
+    height: 10vh;
+    width: 10vw;
+  
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  @media  (max-width:799px) {
+     
+    .logo{
+      margin-bottom: 0px;
+      
+    }
+    .back{
+      margin-bottom: 5px;
+    }
+    .front{
+      height: 130vh;
+    }
+     .abd{
+       display: flex;
+       flex-direction: column;
+      
+           
+     }
+     .left{
+      margin-bottom: 2px;
+      margin-top: 50px;
+      margin-left: 100px;
+    /* display: none; */
+    }
+    .right{
+      margin-top: 35px;
+    }
+    .box{
+      margin-left: 20px;
+    }
+  
+  }
